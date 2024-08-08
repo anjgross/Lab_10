@@ -33,8 +33,8 @@ public class testSelectionSort {
 
     @Test
     public void testMixed() {
-        int[] arr = {8, -9, 0, 10, -2};
-        int[] Sortedarr = {-9, -2, 0, 8, 10};
+        int[] arr = {14, -9, 0, 10, -2};
+        int[] Sortedarr = {-9, -2, 0, 10, 14};
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
@@ -43,8 +43,8 @@ public class testSelectionSort {
 
     @Test
     public void testDuplicates() {
-        int[] arr = {8, 8, 7, 7, 2};
-        int[] Sortedarr = {2, 7, 7, 8, 8};
+        int[] arr = {8, 8, 7, 7, 10};
+        int[] Sortedarr = {7, 7, 8, 8, 10};
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
